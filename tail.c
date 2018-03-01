@@ -15,12 +15,12 @@
 
 void print_help() {
     printf("%s\n",
-           "Usage: assign1-16350593 [options]:\n-n Output the last K lines.\n-o Print odd lines.\n-V Output version info.\n-h Print this help message.");
+           "Usage: tail [options]:\n-n Output the last K lines.\n-o Print odd lines.\n-V Output version info.\n-h Print this help message.");
 }
 
 void print_version() {
     printf("%s\n",
-           "Name: William Akinsanya\nEmail: william.akinsanya@ucdconnect.ie\nVariant: Tail, odd");
+           "Name: William Akinsanya\nEmail: akinsanya.will@gmail.com");
 }
 
 int main(int argc, char *argv[]) {
